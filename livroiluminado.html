@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/8f4343ed4d.js" crossorigin="anonymous"></script>
+    <title>O Iluminado</title>
+</head>
+<body>
+    <header>
+        <h1 class="titulo">O Iluminado</h1>
+        <h3 class="subtitulo">Autor(a): Stephen King</h3>
+        
+    </header>
+
+    <div class="pglivro">
+        
+    <img src="https://th.bing.com/th/id/R.a4f1c7584752f0881e8075809e287be8?rik=2Z63x4VA54%2fo0A&riu=http%3a%2f%2fpassaneura.com%2fwp-content%2fuploads%2f2016%2f03%2filuminado-capa.jpg&ehk=g1ylTQ%2fmEr0VwHkAT%2bYee9ju3b9rGF%2bqUSNa9lpeerg%3d&risl=1&pid=ImgRaw&r=0" alt="" class="img">
+    
+    <p class="resumo"> 
+        
+        O romance, magistralmente levado ao cinema por Stanley Kubrick, continua apaixonando (e aterrorizando) novas gerações de leitores. A luta assustadora entre dois mundos. Um menino e o desejo assassino de poderosas forças malignas. Uma família refém do mal. <br> Nesta guerra sem testemunhas, vencerá o mais forte. Danny Torrance não é um menino comum. É capaz de ouvir pensamentos e transportar-se no tempo. <br> Danny é iluminado. Será uma maldição ou uma bênção? A resposta pode estar guardada na imponência assustadora do hotel Overlook. Em O iluminado, quando Jack Torrance consegue o emprego de zelador no velho hotel, todos os problemas da família parecem estar solucionados. Não mais o desemprego e as noites de bebedeiras. Não mais o sofrimento da esposa, Wendy. <br> Tranquilidade e ar puro para o pequeno Danny livrar-se das convulsões que assustam a família. Só que o Overlook não é um hotel comum. O tempo esqueceu-se de enterrar velhos ódios e de cicatrizar antigas feridas, e espíritos malignos ainda residem nos corredores. <br> O hotel é uma chaga aberta de ressentimento e desejo de vingança. É uma sentença de morte. E somente os poderes de Danny podem fazer frente à disseminação do mal.
+    </p>
+    </div>
+
+
+<form action="/submit-comment" method="post" class="comentario">
+    <br>
+    <p class="ava" >Avaliações</p>
+    <br>
+        <label for="comment" class="label">Deixe seu comentário:</label> <br>
+
+        <textarea id="comment" name="comment" rows="2" cols="50" class="label" placeholder="Escreva seu feedback do livro"></textarea>
+
+        <div class="rating">
+            <input value="5" name="rate" id="star5" type="radio">
+            <label title="text" for="star5"></label>
+            <input value="4" name="rate" id="star4" type="radio">
+            <label title="text" for="star4"></label>
+            <input value="3" name="rate" id="star3" type="radio" checked="">
+            <label title="text" for="star3"></label>
+            <input value="2" name="rate" id="star2" type="radio">
+            <label title="text" for="star2"></label>
+            <input value="1" name="rate" id="star1" type="radio">
+            <label title="text" for="star1"></label>
+          </div> <br> <br>
+          <input type="submit" value="Enviar" class="botao">
+
+
+        <p class="feedback">Diogo Nogueira<br>
+        Ótimo livro, super recomendo. <br>
+        5/<i class="fa-solid fa-star" style="color:#ffa723 ;"></i></p>
+
+        <p class="feedback">Renata Rodrigues <br>
+        Uma leitura leve e rápida, que te prende na história.<br>
+           5/<i class="fa-solid fa-star" style="color:#ffa723 ;"></i></p>
+  
+</form>
+</body>
+</html>

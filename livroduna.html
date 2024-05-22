@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/8f4343ed4d.js" crossorigin="anonymous"></script>
+    <title>Duna</title>
+</head>
+<body>
+    <header>
+        <h1 class="titulo">Duna</h1>
+        <h3 class="subtitulo">Autor(a): Frank Herbert</h3>
+        
+    </header>
+
+    <div class="pglivro">
+        
+    <img src="https://th.bing.com/th/id/OIP.IHJouEyEUaFWw_Ugto2zEgAAAA?rs=1&pid=ImgDetMain" alt="" class="img">
+    
+    <p class="resumo"> 
+        
+        Uma estonteante mistura de aventura e misticismo, ecologia e política, este romance ganhador dos prêmios Hugo e Nebula deu início a uma das mais épicas histórias de toda a ficção científica. <br> Duna é um triunfo da imaginação, que influenciará a literatura para sempre. <br> Esta edição inédita, com introdução de Neil Gaiman, apresenta ao leitor o universo fantástico criado por Herbert e que será adaptado ao cinema por Denis Villeneuve, diretor de A chegada e de Blade Runner 2049.
+     </p>
+    </div>
+
+
+<form action="/submit-comment" method="post" class="comentario">
+    <br>
+    <p class="ava" >Avaliações</p>
+    <br>
+        <label for="comment" class="label">Deixe seu comentário:</label> <br>
+
+        <textarea id="comment" name="comment" rows="2" cols="50" class="label" placeholder="Escreva seu feedback do livro"></textarea>
+
+        <div class="rating">
+            <input value="5" name="rate" id="star5" type="radio">
+            <label title="text" for="star5"></label>
+            <input value="4" name="rate" id="star4" type="radio">
+            <label title="text" for="star4"></label>
+            <input value="3" name="rate" id="star3" type="radio" checked="">
+            <label title="text" for="star3"></label>
+            <input value="2" name="rate" id="star2" type="radio">
+            <label title="text" for="star2"></label>
+            <input value="1" name="rate" id="star1" type="radio">
+            <label title="text" for="star1"></label>
+          </div> <br> <br>
+          <input type="submit" value="Enviar" class="botao">
+
+
+        <p class="feedback">André Rodrigues<br>
+        Ótimo livro, super recomendo. <br>
+        5/<i class="fa-solid fa-star" style="color:#ffa723 ;"></i></p>
+
+        <p class="feedback">Davi Ferreira<br>
+        Uma leitura leve e rápida, que te prende na história.<br>
+        5/<i class="fa-solid fa-star" style="color:#ffa723 ;"></i></p>
+  
+</form>
+</body>
+</html>
